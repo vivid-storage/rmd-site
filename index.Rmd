@@ -1,0 +1,19 @@
+---
+title: "Home"
+output: html_document
+---
+
+# Welcome to My Sample RMarkdown Site
+
+This is the home page of my sample RMarkdown site. This site uses `knitr` as the engine for rendering R code.
+
+## Code Chunk Example
+
+Here is an example of an R code chunk:
+
+```{r echo = FALSE}
+# Create a vector of numbers
+x <- 1:10
+
+# Print the vector
+x

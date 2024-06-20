@@ -1,0 +1,22 @@
+---
+title: "About"
+output: html_document
+---
+
+# About This Site
+
+This sample site demonstrates how to use RMarkdown to create a website. The site includes examples of code chunks, plots, and tables.
+
+## Table Example
+
+Here is an example of a table:
+
+```{r echo = FALSE}
+# Create a simple data frame
+df <- data.frame(
+  Name = c("Alice", "Bob", "Charlie"),
+  Age = c(30, 25, 35)
+)
+
+# Print the data frame
+df
